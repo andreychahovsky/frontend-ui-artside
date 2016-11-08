@@ -1,0 +1,236 @@
+.html {
+	height: 100%;
+}
+
+/*-----common------------------------------*/
+body {
+	background-color: #e1e1e1;
+/* @TODO	how to merge background-picture & background-colour? */
+	background: url(../images/bg_body.jpg) repeat 0 0;
+	width: 100%;
+	height: 100%;
+	font: 11px Verdana, Arial, sans-serif;
+	line-height: normal;
+	color: #000;
+	cursor: default;
+}
+
+.wrapper {
+	width: 1200px;
+	position: relative;
+	margin-bottom: 150px;
+	min-height: 100%;
+}
+
+h1,
+h2 {
+	font-family: Georgia, Times New Roman, serif;
+	line-height: normal;
+	font-weight: normal;
+}
+
+h1 {
+	color: #000;
+	font-size: 22px;
+}
+
+h2 {
+	color: #000;
+	font-size: 18px;
+}
+
+article {
+	margin-bottom: 0px;
+}
+
+article p {
+	margin-bottom: 0px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+/*-----end common------------------------------*/
+
+/*-----start header------------------------------*/
+
+.header {
+	position: relative;
+	height: 160px;
+	width: 1000px;
+	margin: 45px 0px 90px 100px;
+}
+
+.header .logo {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.header .logo img {
+	display: block;
+	width: 100px;
+	height: auto;
+}
+
+.header .auth {
+	position: absolute;
+	top: 0px;
+	right: 20px;
+}
+
+.header .auth .auth-link {
+	position: relative;
+	display: inline-block;
+	margin-left: 16px;
+	text-transform: lowercase;
+}
+
+/*-----end header------------------------------*/
+
+/*-----start left-sidebar------------------------------*/
+
+.left-sidebar {
+	position: relative;
+	float: left;
+	width: 350px;
+/*	margin-left: -100%;*/
+}
+
+/*-----end aside_left------------------------------*/
+
+/*-----start content------------------------------*/
+
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.content {
+	padding: 0 0 0 350px;
+}
+
+/*.content {*/
+/*	position: relative;*/
+/*	display: block;*/
+/*	width: 850px;*/
+/*	padding-bottom: 30px;*/
+/*}*/
+
+.content .promo {
+/*	position: relative;*/
+	display: block;
+/*	width: 830px;*/
+	padding: 20px;
+	padding-left: 144px;
+	margin-bottom: 54px;
+/*	padding: 30px 45px 30px 145px;*/
+ 	background:
+		url(../images/bg_about.png) no-repeat 56px center, url(../images/bg_promo.png) repeat;
+ 	font-size: 14px;
+ 	font-style: italic;
+ 	color: #000;
+	border-radius: 10px;
+	line-height: 22px;
+}
+
+.content .promo h1 {
+	padding-bottom: 20px;
+	font-style: normal;
+}
+
+.content .article {
+	position: relative;
+	display: block;
+	width: 1000px;
+	margin: 50px 0px 0px 0px;
+}
+
+.content .article img {
+	position: absolute;
+	display: block;
+	left: 20px;
+	top: 50%;
+/*	float: left;*/
+	width: auto;
+	height: auto;
+	margin: -32px 0px 0px 0px;
+}
+
+.content .article h2 {
+	display: block;
+	margin: 0px 0px 20px 125px;
+}
+
+.content .article p {
+	display: block;
+	margin: 0px 0px 0px 125px;
+}
+
+/*-----end content------------------------------*/
+
+/*-----start footer------------------------------*/
+
+.footer {
+	width: 1200px;
+	margin: -150px auto 0;
+	height: 150px;
+	position: relative;
+}
+
+/*.footer {*/
+/*	position: relative;*/
+/*	display: block;*/
+/*	box-sizing: border-box;*/
+/*	width: 1000px;*/
+/*	height: 75px;*/
+/*	margin: -75px 0px 0px 110px;*/
+/*	padding: 20px 0px 0px 0px;*/
+/*	border-top: 1px solid rgba(215, 182, 73, 0.44);*/
+/*	color: #000;*/
+/*}*/
+
+.footer div{
+	display: block;
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+
+.footer .footermenu {
+	display: block;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+.footer .footermenu .menu-list {
+	list-style: none;
+}
+
+.footer .footermenu .menu-item {
+	display: inline-block;
+	position: relative;
+	margin-left: 20px;
+}
+
+.footer .footermenu .menu-item::before {
+	position: absolute;
+	content: '|';
+	color: #000;
+	left: -12px;
+	top: -1px;
+}
+
+.footer .footermenu .menu-item:first-child::before {
+	display: none;
+}
+
+/*-----end footer------------------------------*/

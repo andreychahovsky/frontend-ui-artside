@@ -1,9 +1,26 @@
+<<<<<<< HEAD
 .html {
 	height: 100%;
 }
 
 /*-----common------------------------------*/
 body {
+=======
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+/*-----common------------------------------*/
+body {
+	background-color: #e1e1e1;
+/* @TODO	how to merge background-picture & background-colour? */
+>>>>>>> first_version
 	background: url(../images/bg_body.jpg) repeat 0 0;
 	width: 100%;
 	height: 100%;
@@ -16,6 +33,7 @@ body {
 .wrapper {
 	width: 1200px;
 	position: relative;
+<<<<<<< HEAD
 	margin-bottom: 100px;
 	min-height: 100%;
 }
@@ -30,6 +48,22 @@ h2 {
 h1 {
 	color: #000;
 	font-size: 22px;
+=======
+	margin-bottom: 150px;
+	min-height: 100%;
+}
+
+/*h1,*/
+/*h2 {*/
+/*	font-family: Georgia, Times New Roman, serif;*/
+/*	line-height: normal;*/
+/*	font-weight: normal;*/
+/*}*/
+
+h1 {
+	color: #000;
+	font-size: 18px;
+>>>>>>> first_version
 }
 
 h2 {
@@ -56,6 +90,7 @@ a:hover {
 }
 /*-----end common------------------------------*/
 
+<<<<<<< HEAD
 /*-----start header------------------------------*/
 
 .header {
@@ -143,11 +178,21 @@ a:hover {
 
 .header .lang-list .lang-item:first-child::before {
 	display: none;
+=======
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 160px;
+	margin: 45px 0px 90px 100px;
+	position: relative;
+
+>>>>>>> first_version
 }
 
 .header .auth {
 	position: absolute;
 	top: 0px;
+<<<<<<< HEAD
 	right: 20px;
 }
 
@@ -281,3 +326,49 @@ a:hover {
 }
 
 /*-----end footer------------------------------*/
+=======
+	right: 0px;
+}
+
+/**/
+
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 0 0 0 350px;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 350px;
+	margin-bottom: -100%;
+	margin-left: 100px;
+	position: relative;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	width: 1200px;
+	margin: 150px 0px 35px 100px;
+	position: relative;
+	display: inline-block;
+}
+
+.footer .signature {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.footer .vacancies {
+		position: absolute;
+		text-transform: lowercase;
+}
+>>>>>>> first_version
