@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-.html {
-	height: 100%;
-}
-
-/*-----common------------------------------*/
-body {
-=======
 * {
 	margin: 0;
 	padding: 0;
@@ -20,7 +12,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 body {
 	background-color: #e1e1e1;
 /* @TODO	how to merge background-picture & background-colour? */
->>>>>>> first_version
 	background: url(../images/bg_body.jpg) repeat 0 0;
 	width: 100%;
 	height: 100%;
@@ -33,22 +24,6 @@ body {
 .wrapper {
 	width: 1200px;
 	position: relative;
-<<<<<<< HEAD
-	margin-bottom: 100px;
-	min-height: 100%;
-}
-
-h1,
-h2 {
-	font-family: Georgia, Times New Roman, serif;
-	line-height: normal;
-	font-weight: normal;
-}
-
-h1 {
-	color: #000;
-	font-size: 22px;
-=======
 	margin-bottom: 150px;
 	min-height: 100%;
 }
@@ -63,7 +38,6 @@ h1 {
 h1 {
 	color: #000;
 	font-size: 18px;
->>>>>>> first_version
 }
 
 h2 {
@@ -90,95 +64,6 @@ a:hover {
 }
 /*-----end common------------------------------*/
 
-<<<<<<< HEAD
-/*-----start header------------------------------*/
-
-.header {
-	position: relative;
-	height: 160px;
-	width: 1000px;
-	margin: 42px 0px 42px 120px;
-}
-
-.header .logo {
-	position: absolute;
-	left: 20px;
-	bottom: 0px;
-}
-
-.header .logo img {
-	display: block;
-	width: 223px;
-	height: auto;
-}
-
-.header .mainmenu {
-	display: block;
-	position: absolute;
-	right: 0px;
-	bottom: 0px;
-	width: auto;
-	background: linear-gradient(#000, #000);
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-}
-
-.header .mainmenu .menu-list {
-	list-style: none;
-}
-
-.header .mainmenu .menu-item {
-	display: inline-block;
-	color: #000;
-	width: 117px;
-	height: 39px;
-	line-height: 39px;
-	text-align: center;
-	margin-right: -4px;
-}
-
-.header .mainmenu .menu-item a {
-	color: inherit;
-	font: 14px Georgia, Times New Roman, serif;
-}
-
-.header .mainmenu .menu-item.active {
-	display: inline-block;
-	background: linear-gradient(#000, #000);
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-}
-
-.header .mainmenu .menu-item.active a{
-	cursor: default;
-}
-
-.header .lang-list {
-	position: absolute;
-	top: 0px;
-	left: 20px;
-}
-
-.header .lang-list .lang-item {
-	position: relative;
-	display: inline-block;
-	margin-right: 16px;
-	color: #000;
-}
-
-.header .lang-list .lang-item::before {
-	content: '|';
-	position: absolute;
-	left: -12px;
-	top: -1px;
-	color: #000;
-}
-
-.header .lang-list .lang-item:first-child::before {
-	display: none;
-=======
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
@@ -186,147 +71,11 @@ a:hover {
 	margin: 45px 0px 90px 100px;
 	position: relative;
 
->>>>>>> first_version
 }
 
 .header .auth {
 	position: absolute;
 	top: 0px;
-<<<<<<< HEAD
-	right: 20px;
-}
-
-.header .auth .auth-link {
-	position: relative;
-	display: inline-block;
-	margin-left: 16px;
-	text-transform: lowercase;
-}
-
-.header .auth .auth-link::before {
-	content: '|';
-	position: absolute;
-	left: -12px;
-	top: -1px;
-	color: #000;
-}
-
-.header .auth .auth-link:first-child::before {
-	display: none;
-}
-
-/*-----end header------------------------------*/
-
-/*-----start content------------------------------*/
-
-.content {
-	position: relative;
-	display: block;
-	left: 120px;
-	width: 1000px;
-	padding-bottom: 30px;
-}
-
-.content .promo {
-	display: block;
-	padding: 20px;
-	padding-left: 144px;
-	margin-bottom: 54px;
- 	background:
-		url(../images/bg_about.png) no-repeat 56px center, url(../images/bg_promo.png) repeat;
- 	font-size: 14px;
- 	font-style: italic;
- 	color: #000;
-	border-radius: 10px;
-	line-height: 22px;
-}
-
-.content .promo h1 {
-	padding-bottom: 20px;
-	font-style: normal;
-}
-
-.content .article {
-	position: relative;
-	display: block;
-	width: 1000px;
-	margin: 50px 0px 0px 0px;
-}
-
-.content .article img {
-	position: absolute;
-	display: block;
-	left: 20px;
-	top: 50%;
-	width: auto;
-	height: auto;
-	margin: -32px 0px 0px 0px;
-}
-
-.content .article h2 {
-	display: block;
-	margin: 0px 0px 20px 125px;
-}
-
-.content .article p {
-	display: block;
-	margin: 0px 0px 0px 125px;
-}
-
-/*-----end content------------------------------*/
-
-/*-----start footer------------------------------*/
-
-.footer {
-	position: relative;
-	display: block;
-	box-sizing: border-box;
-	width: 1000px;
-	height: 75px;
-	margin: -75px 0px 0px 110px;
-	padding: 20px 0px 0px 0px;
-	border-top: 1px solid rgba(215, 182, 73, 0.44);
-	color: #000;
-}
-
-.footer div{
-	display: block;
-	position: absolute;
-	left: 20px;
-	bottom: 20px;
-}
-
-.footer .footermenu {
-	display: block;
-	position: absolute;
-	right: 20px;
-	bottom: 20px;
-}
-
-.footer .footermenu .menu-list {
-	list-style: none;
-}
-
-.footer .footermenu .menu-item {
-	display: inline-block;
-	position: relative;
-	margin-left: 20px;
-}
-
-.footer .footermenu .menu-item::before {
-	position: absolute;
-	content: '|';
-	color: #000;
-	left: -12px;
-	top: -1px;
-}
-
-.footer .footermenu .menu-item:first-child::before {
-	display: none;
-}
-
-/*-----end footer------------------------------*/
-=======
 	right: 0px;
 }
 
@@ -371,4 +120,3 @@ a:hover {
 		position: absolute;
 		text-transform: lowercase;
 }
->>>>>>> first_version
