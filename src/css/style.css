@@ -17,8 +17,15 @@ body {
 	height: 100%;
 	font: 11px Verdana, Arial, sans-serif;
 	line-height: normal;
-	color: #000;
+	color: #363636;
 	cursor: default;
+}
+
+strong {
+	font-weight: bolder;
+	display: inline-block;
+	margin-top: 15px;
+	
 }
 
 .wrapper {
@@ -28,6 +35,10 @@ body {
 	min-height: 100%;
 }
 
+.header, .footer {
+		color: #707070;
+}
+
 /*h1,*/
 /*h2 {*/
 /*	font-family: Georgia, Times New Roman, serif;*/
@@ -35,14 +46,18 @@ body {
 /*	font-weight: normal;*/
 /*}*/
 
-h1 {
-	color: #000;
+h1, h2 {
+	color: #363636;
 	font-size: 18px;
+	padding-bottom: 22px;
 }
 
 h2 {
-	color: #000;
-	font-size: 18px;
+	padding-top: 42px;
+}
+
+p {
+	padding-bottom: 15px;
 }
 
 article {
@@ -54,12 +69,12 @@ article p {
 }
 
 a {
-	color: #000;
+	color: #363636;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #000;
+	color: #363636;
 	text-decoration: underline;
 }
 /*-----end common------------------------------*/
@@ -67,16 +82,28 @@ a:hover {
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
-	height: 160px;
-	margin: 45px 0px 90px 100px;
+	height: 55px;
+	margin: 45px 0px 100px 100px;
 	position: relative;
-
 }
 
 .header .auth {
 	position: absolute;
 	top: 0px;
 	right: 0px;
+}
+
+.auth a:hover {
+	text-decoration: none;
+}
+
+.auth .ph_code {
+	font: 18px System;
+}
+
+.auth .ph_nom {
+	font-weight: bolder;
+	font: 30px Arial;
 }
 
 /**/
@@ -90,6 +117,14 @@ a:hover {
 	padding: 0 0 0 350px;
 }
 
+.staff-list{
+	display: block;
+}
+
+.staff-list .staff-post{
+	display: inline-block;
+}
+
 
 /* Left Sidebar
 -----------------------------------------------------------------------------*/
@@ -99,6 +134,17 @@ a:hover {
 	margin-bottom: -100%;
 	margin-left: 100px;
 	position: relative;
+	text-transform: uppercase;
+}
+
+.left-sidebar a {
+	font-size: 40px;
+}
+	
+.left-sidebar a:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #707070;	
 }
 
 
