@@ -46,14 +46,14 @@ strong {
 /*	font-weight: normal;*/
 /*}*/
 
-h1, h2 {
-	color: #363636;
-	font-size: 18px;
+h1 {
 	padding-bottom: 22px;
 }
-
-h2 {
-	padding-top: 42px;
+h1, h2 {
+	font-family: system;
+	color: #363636;
+	font-size: 18px;
+	text-transform: uppercase;
 }
 
 p {
@@ -117,6 +117,38 @@ a:hover {
 	padding: 0 0 0 350px;
 }
 
+.content .staff {
+	position: relative;
+	display: block;
+	margin: 25px 0px 40px 0px;
+}
+
+.staff div {
+	display: inline-block;
+	width: 280px;
+	height: auto;
+}
+
+.staff img {
+	float: left;
+	height: 77px;
+/*	we can use MAX & MIN-HEIGHT, but I think it's not good idea */
+	max-width: 150px;
+}
+
+.staff figure {
+	display: block;
+	height: 77px;
+	position: relative;
+	margin: 20px 20px 0px 0px;
+}
+
+.staff figcaption {
+	position: absolute;
+	margin-left: 152px;
+}
+
+/*
 .staff-list{
 	display: block;
 }
@@ -124,6 +156,7 @@ a:hover {
 .staff-list .staff-post{
 	display: inline-block;
 }
+*/
 
 
 /* Left Sidebar
@@ -152,7 +185,7 @@ a:hover {
 -----------------------------------------------------------------------------*/
 .footer {
 	width: 1200px;
-	margin: 150px 0px 35px 100px;
+	margin: 90px 0px 35px 100px;
 	position: relative;
 	display: inline-block;
 }
