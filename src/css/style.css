@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 html {
 	height: 100%;
 }
@@ -10,22 +11,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 /*-----common------------------------------*/
 body {
-	background-color: #e1e1e1;
 /* @TODO	how to merge background-picture & background-colour? */
-	background: url(../images/bg_body.jpg) repeat 0 0;
+    background:
+        url(../images/bg_body.jpg) repeat 0 0,
+        rgba( 255, 255, 255, 0.9);
+	/*background: url(/psd/bg-body.jpg) repeat 0 0;*/
 	width: 100%;
 	height: 100%;
+	display: block;
 	font: 11px Verdana, Arial, sans-serif;
 	line-height: normal;
 	color: #363636;
 	cursor: default;
+	margin: 0px auto;
 }
 
 strong {
 	font-weight: bolder;
 	display: inline-block;
 	margin-top: 15px;
-	
 }
 
 .wrapper {
@@ -49,8 +53,9 @@ strong {
 h1 {
 	padding-bottom: 22px;
 }
+
 h1, h2 {
-	font-family: system;
+	font-family: system, sans-serif;
 	color: #363636;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -109,12 +114,12 @@ a:hover {
 /**/
 
 .container {
-	width: 100%;
+	width: auto;
 	float: left;
 	overflow: hidden;
 }
 .content {
-	padding: 0 0 0 350px;
+	padding: 0px 0px 50px 350px;
 }
 
 .content .staff {
@@ -180,14 +185,15 @@ a:hover {
 	background: #707070;	
 }
 
-
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
-	width: 1200px;
-	margin: 90px 0px 35px 100px;
+	width: 1100px;
+	margin: 0px 100px 0px 100px;
 	position: relative;
 	display: inline-block;
+	border-top: 1px #adadad solid;
+	padding: 40px 0px 35px 0px;
 }
 
 .footer .signature {
