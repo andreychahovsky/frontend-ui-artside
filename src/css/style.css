@@ -12,10 +12,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 /*-----common------------------------------*/
 body {
 /* @TODO	how to merge background-picture & background-colour? */
-    background:
-        url(../images/bg_body.jpg) repeat 0 0,
-        rgba( 255, 255, 255, 0.9);
-	/*background: url(/psd/bg-body.jpg) repeat 0 0;*/
+/*
+	background:
+			url(../images/bg_body.jpg) repeat 0 0,
+			rgba( 255, 255, 255, 0.9);
+*/
+	background: url(../images/bg-body.jpg) repeat 0 0;
 	width: 100%;
 	height: 100%;
 	display: block;
