@@ -139,8 +139,9 @@ a:hover {
 .staff img {
 	float: left;
 	height: 77px;
+	width: auto;
 /*	we can use MAX & MIN-HEIGHT, but I think it's not good idea */
-	max-width: 150px;
+	max-width: 140px;
 }
 
 .staff figure {
