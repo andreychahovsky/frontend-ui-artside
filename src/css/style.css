@@ -136,19 +136,20 @@ a:hover {
 	height: auto;
 }
 
-.staff img {
-	float: left;
-	height: 77px;
-	width: auto;
-/*	we can use MAX & MIN-HEIGHT, but I think it's not good idea */
-	max-width: 140px;
-}
-
 .staff figure {
 	display: block;
-	height: 77px;
+	height: 78px;
+	width: 78px;
+/*	overflow: hidden;*/
 	position: relative;
 	margin: 20px 20px 0px 0px;
+}
+
+.staff figure img {
+	float: left;
+	height: 100%;
+	width: auto;
+/*	we can use MAX & MIN-HEIGHT, but I think it's not good idea */
 }
 
 .staff figcaption {
